@@ -3,13 +3,13 @@
 ## 1) Dependências
 
 ```bash
-npm i next-pwa
+npm i @ducanh2912/next-pwa
 ```
 
 ## 2) Configuração do `next.config.js`
 
 ```js
-const withPWA = require("next-pwa")({
+const withPWA = require("@ducanh2912/next-pwa").default({
   dest: "public",
   register: true,
   skipWaiting: true,
